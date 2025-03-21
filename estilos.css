@@ -293,27 +293,6 @@ body {
     
 }
 
-/* .p1{
-    background-image: url(./img/el_secreto_de_sus_ojos.jpg);
-    background-size: cover;
-}  
- .p2{
-    background-image: url(./img/un_lugar_en_el_mundo.jpg);
-    background-size: cover;
-} 
-.p3{
-    background-image: url(./img/relatos_salvajes.jpg);
-    background-size: cover;
-}
-.p4{
-    background-image: url(./img/nueve_reinas.jpg);
-    background-size: cover;
-}
-.p5{
-    background-image: url(./img/esperando_carroza.jpg);
-    background-size: cover;
-} */
-
 .carrusel-titulo {
     background-color: rgba(133, 202, 194, 0.256);
     text-align: center;
@@ -323,23 +302,6 @@ body {
     color: white;
 
 }
-
-/* .carrusel-sinopsis {
-    background-color: rgba(196, 224, 221, 0.312);
-    color: rgb(66, 55, 55);
-    font-weight: 600;
-    height: 5rem;
-    text-align: left;
-    padding: 0.5rem;
-    word-wrap: break-word;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-.carrusel-sinopsis:hover {
-    height: auto;
-    overflow: visible;
-} */
 
 /* ------------------------------------------------------- TOP DIRECTORES ----- */
 
@@ -476,17 +438,6 @@ body {
     body{
         width: 95%;
     }
-
-    /* .top5Global{
-        width: 75%;
-    }
-    .aside_Form{
-        width: 35%;
-        align-self: flex-end;
-    }
-    .btn_enviar{
-        width: 50%;
-    } */
 
     .contenedor-flex{
         flex-direction: row;
