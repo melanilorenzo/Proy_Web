@@ -186,6 +186,7 @@ body {
 
 /* ------------------------- Formulario Película ----- */
 
+
 #titForm {
     background-color: rgba(90, 64, 53, 0.204);
     font-size: 20px;
@@ -207,8 +208,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+.form label{
+    margin-left: 1rem;
+}
+
 .pelicula_input{
     background-color: rgba(244, 216, 182, 0.867);
+    border-radius: 20px;
     margin-bottom: 1rem;
 }
 
@@ -221,13 +227,13 @@ body {
     margin: 1rem;
     margin-left: auto;
     padding: 1rem;
+    border-radius: 25px;
 }
 
 .envio_ok{
     text-align: center;
     margin: 5rem;
 }
-
 
 /* ------------------------------------------------------- TOP ARG ----- */
 
