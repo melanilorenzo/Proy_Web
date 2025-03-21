@@ -1,0 +1,524 @@
+/* Reinicio de márgenes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Tamaño de fuente para todo el doc */
+html {
+    font-size: 12px;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 576px;
+    background-color: antiquewhite;
+    color: rgb(217, 73, 41);
+    line-height: 1.6;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+#header {
+
+    background: radial-gradient(ellipse, #000000 22%, #e34747 100%);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+
+    font-family: "Hepta Slab", serif;
+    font-weight: 300;
+    text-align: center;
+    color: antiquewhite;
+}
+
+/* Menu del Inicio */
+
+.menuSup {
+    background-color: #4a454500;
+    font-size: 16px;
+    padding: 1rem;
+    padding-top: 0%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menuSup li {
+    margin-right: 1rem;
+}
+
+.menuSup a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.menuSup a:hover {
+    color: rgb(217, 73, 41);
+    font-weight: bold;
+}
+
+
+/* --------- FOOTER ----- */
+.piePag {
+    background-color: hsla(0, 46%, 32%, 0);
+    font-size: 20px;
+    text-align: right;
+    margin: 1rem;
+
+}
+
+.piePag a {
+    text-align: right;
+    color: rgb(34, 39, 44);
+    text-decoration: none;
+
+}
+
+.piePag a:hover {
+    color: rgb(217, 73, 41);
+    font-weight: bold;
+}
+
+
+/* -------------------------------------------------------- TOP GLOBAL  ----- */
+
+.top5Global {
+    background-color: rgba(39, 25, 25, 0);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.cajaPelicula {
+    background-color: rgba(136, 117, 93, 0);
+    color: rgb(46, 42, 40);
+
+    padding: 2rem;
+    margin: 0 auto;
+    width: 400px;
+    height: 545px;
+}
+
+.fondoPelicula {
+
+    width: 100%;
+    height: 600px;
+    margin: 0rem auto;
+
+    background-image: url(./img/filmstripe.jpg);
+    border-bottom: solid 20px rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.portada {
+    background-color: rgba(197, 225, 162, 0.234);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 30rem;
+
+}
+
+.peli1 {
+    background-image: url(./img/El_padrino.jpg);
+    background-size: cover;
+}
+.peli2 {
+    background-image: url(./img/gone-wind.jpg);
+    background-size: cover;
+}
+.peli3 {
+    background-image: url(./img/forrest-gump.jpg);
+    background-size: cover;
+}
+.peli4 {
+    background-image: url(./img/Matrix.jpg);
+    background-size: cover;
+}
+.peli5 {
+    background-image: url(./img/fight-club.jpg);
+    background-size: cover;
+}
+
+
+.titulo {
+    background-color: rgba(90, 64, 53, 0.204);
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.sinopsis {
+    background-color: rgba(90, 64, 53, 0.204);
+    color: black;
+    font-weight: 500;
+    margin-top: 1rem;
+    height: 10rem;
+    text-align: left;
+    padding: 0.5rem;
+    word-wrap: break-word;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+.sinopsis:hover {
+    overflow: scroll;
+}
+
+/* ------------------------- Formulario Película ----- */
+
+#titForm {
+    background-color: rgba(90, 64, 53, 0.204);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.aside_Form {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 240);
+    box-shadow: 5px 5px 4px rgba(242, 175, 93, 0.736);
+    font-size: 15px;
+    margin: 2rem auto;
+    text-align: left;
+    padding: 1.5rem;
+    border-radius: 15px;
+    width: 90%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.pelicula_input{
+    background-color: rgba(244, 216, 182, 0.867);
+    margin-bottom: 1rem;
+}
+
+.btn_enviar{
+    background-color: rgba(244, 216, 182, 0.867);
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(64, 61, 58);
+    margin: 1rem;
+    margin-left: auto;
+    padding: 1rem;
+}
+
+.envio_ok{
+    text-align: center;
+    margin: 5rem;
+}
+
+
+/* ------------------------------------------------------- TOP ARG ----- */
+
+#top5Arg {
+    background-color: rgb(99, 153, 161);
+    background-image: url(./img/arg.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center; 
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.carrusel-contenedor {
+    display: flex;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    flex-direction: column;
+    scroll-snap-type: x mandatory;
+    padding-top: 36px;
+    align-items: center;
+}
+    
+
+.carrusel-pelicula {
+    width: 400px;
+    margin-right: 1rem;
+}
+
+
+.carrusel-cajaPelicula {
+    padding: 1rem;
+    color: rgb(46, 42, 40);
+}
+
+.carrusel-portada {
+    display: flex;
+    background-color: rgba(197, 225, 162, 0.025);
+    height: 400px;
+    width: 290px;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+   
+}
+
+.carrusel-portada a {
+    width: 400px;
+    margin-right: 1rem;
+    
+} 
+
+.carrusel-portada img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0.5rem;
+    display: block;
+
+    
+}
+
+/* .p1{
+    background-image: url(./img/el_secreto_de_sus_ojos.jpg);
+    background-size: cover;
+}  
+ .p2{
+    background-image: url(./img/un_lugar_en_el_mundo.jpg);
+    background-size: cover;
+} 
+.p3{
+    background-image: url(./img/relatos_salvajes.jpg);
+    background-size: cover;
+}
+.p4{
+    background-image: url(./img/nueve_reinas.jpg);
+    background-size: cover;
+}
+.p5{
+    background-image: url(./img/esperando_carroza.jpg);
+    background-size: cover;
+} */
+
+.carrusel-titulo {
+    background-color: rgba(133, 202, 194, 0.256);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    color: white;
+
+}
+
+/* .carrusel-sinopsis {
+    background-color: rgba(196, 224, 221, 0.312);
+    color: rgb(66, 55, 55);
+    font-weight: 600;
+    height: 5rem;
+    text-align: left;
+    padding: 0.5rem;
+    word-wrap: break-word;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.carrusel-sinopsis:hover {
+    height: auto;
+    overflow: visible;
+} */
+
+/* ------------------------------------------------------- TOP DIRECTORES ----- */
+
+.contenedor-flex {
+    display: flex;
+    border-color: #c83a3a;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#titDire {
+    font-size: 2rem;
+    color: rgb(255, 255, 240);
+    background-color: rgba(40, 36, 33, 0.658);
+    text-align: left;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.topDirectores {
+    background-color: rgb(0, 0, 0, 0.249);
+    text-align: center;
+    background-image: url(./img/oscars.jpg);
+    background-size: cover;
+    padding: 1rem;
+    text-align: left;
+    color: rgb(255, 255, 240);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.top5Dire {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    padding: 1rem;
+    list-style-type: none;
+    border-radius: 10px;
+    
+}
+
+.top5Dire li {
+    display: inline-block;
+    margin-right: 1rem;
+    width: 95%;
+
+}
+
+.top5Dire a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.top5Dire a:hover {
+    color: rgb(217, 73, 41);
+    font-weight: bold;
+
+}
+
+.directores {
+    
+    background-color: rgba(146, 81, 43, 0.81);
+    font-weight: 600px;
+    margin: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    border-radius: 15px;
+    color: rgb(255, 255, 240);
+}
+
+.aside_Premiaciones {
+    background-color: rgb(0, 0, 0);
+    background-image: url(./img/alfombra-roja.png);
+    background-size: cover;
+    color: rgb(255, 255, 240);
+    box-shadow: 5px 5px 4px rgb(146, 81, 43, 0.736);
+    font-size: 13px;
+    text-align: justify;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.aside_Premiaciones li {
+    display: list-item;
+    margin-left: 0.5rem;
+}
+
+.aside_Premiaciones a {
+    color: rgb(255, 255, 240);
+    text-decoration: none;
+}
+
+.aside_Premiaciones a:hover {
+    color: rgb(217, 73, 41);
+    font-weight: bold;
+}
+
+#titPremio {
+    text-align: center;
+}
+
+
+/* ------------------------------------------------------- Media Queries ----- */
+
+
+@media (min-width: 768px) {
+    body{
+        width: 90%;
+    }
+    
+    .aside_Form{
+
+        width: 80%;
+    }
+
+    .directores {
+        font-size: 17px;
+    }
+    
+    .aside_Premiaciones{
+        margin: 1rem;
+    }
+
+    .menuSup{
+        flex-direction: row;
+        justify-content: center;
+        font-size: 16px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    body{
+        width: 95%;
+    }
+
+    /* .top5Global{
+        width: 75%;
+    }
+    .aside_Form{
+        width: 35%;
+        align-self: flex-end;
+    }
+    .btn_enviar{
+        width: 50%;
+    } */
+
+    .contenedor-flex{
+        flex-direction: row;
+        align-items: baseline;
+    } 
+    .topDirectores{
+        width: 70%;
+        font-size: 20px;
+    }
+    .aside_Premiaciones{
+        width: 30%;
+        font-size: 15px;
+    }
+    .fondoPelicula{
+        width: 600px;
+    }
+
+    .carrusel-contenedor {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid #ccc;
+        flex-direction: row;
+        scroll-snap-type: x mandatory;
+        padding-top: 36px;
+    }
+
+    .carrusel-portada {
+        margin-left: 0rem;
+    }
+
+
+
+}
